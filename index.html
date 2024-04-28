@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://kit.fontawesome.com/d018dda636.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -22,11 +24,12 @@
     </div>
     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a href="#">Porfo<span>lio.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Projects</a></li>
                 <li><a href="#Education" class="menu-btn">Education</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
                  
@@ -40,29 +43,36 @@
     <!-- home section start -->
     <section class="home" id="home">
         <div class="max-width">
-            <div class="home-content">
+            <div class="home-content " >
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Vishal Gupta</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
                 <a href="mailto:vishalgupta0403@gmail.com">Hire Me</a>
             </div>
+            
+        </div>
+        <div style="border-radius: 50%;" class="max-widt">
+            <img src="profile.jpg"  style="height:32vw;   " alt="">
         </div>
     </section>
     <!-- about section start -->
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title"style="text-decoration:underline;text-decoration-color:crimson;"><i>About me </i></h2>
+            <h2 class="title"style="text-decoration:underline; "><i>About me </i></h2>
            
             <div class="about-content">
                 <div class="column left">
-                    <img onmouseenter="vishal(this)" onmouseleave="gupta(this)" src="v.jpg" alt="">
+                    <img style="border-radius: 50%;"  src="profile.jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">I'm Vishal and I'm a <span class="typing-2"></span></div>
-                    <p><i> I am vishal Gupta. I grew up in Gwalior, Madhya Pradesh but currently live in Bhopal, Madhya Pradesh. I have completed my 12th in Science with 90.20% from Vankhandeshwar higher secondary school, Dabra, Gwalior. I am doing Bachelor of Technology in Computer Science from SAGE University, Bhopal. My graduation will be completed in June, 2025. Multitasking and hard work are my strengths. 
-                        It is not comfortable for me until I have completed my work within the given timeframe. 
-                        Time management is one of my strongest skills. Cricket and online gaming are two of my favorite things to do.  A software developer is what I aim to become. That’s all about me.” Thank You ".<i> </p></br>
-                <a href="https://drive.google.com/file/d/1VMv_j5u6k8yR06Ci5Es_ZtbzLWcV45XB/view?usp=share_link">Download Resume</a></br>
+                    <p style="font-weight: 500;"><i> I'm Vishal Gupta, a driven individual residing in Bhopal, India, originally from the vibrant city of Gwalior. Currently
+                    pursuing my education, I maintain an impressive CGPA of 8.8. My expertise lies in MERN stack development and crafting
+                    mobile applications with React Native, complemented by proficiency in Tailwind CSS for crafting captivating user
+                    interfaces. With a fervent passion for software development, I thrive on architecting and deploying solutions that
+                    precisely address client and user needs. My aspiration is to channel my skills and dedication into the tech realm,
+                    contributing innovative software solutions that leave a lasting positive impact.<i> </p></br>
+                <a href="https://drive.google.com/file/d/1rhxJ4p3qkAOQGrUH3TevNTJrM3kytktK/view?usp=sharing">Download Resume</a></br>
                 </div>
             </div>
         </div>
@@ -70,31 +80,71 @@
 
      
     <!-- skills section start -->
-   <section class="skills" id="skills">
-        <div class="max-width">
+    <section class="skills" id="skills">
+        <div  style="margin: 0px 7vw;">
             <h2 class="title">My Skills</h2>
-            <div class="skills-content">
-                <div class="img">
-                    
-                    <img style=" margin-top:100px;margin-left: 130px;margin-right: 130px;"src="JS.png" height="100px">
-                   <img style=" margin-top:100px;margin-left: 130px;margin-right: 130px;" src="HTML.png"height="100px">
-                   <img style=" margin-top:100px;margin-left: 130px;margin-right: 130px;" src="CSS.png" height="100px">
-                   <img style=" margin-top:100px;margin-left: 130px;margin-right: 130px;" src="NODE.webp"height="100px">                                     
-                   <img style=" margin-top:100px;margin-left: 130px;margin-right: 130px;" src="JAVA.png"height="100px">
-                   <img style="margin-left: 170px;margin-right: 130px; margin-top:100px"src="C.png"height="100px"> 
-                   <img style="margin-left:120px;margin-top:100px;margin-right: 100px;"src="REACT.png "height="100px">
-                                 
-               </div>
+            <div style="display: grid;align-self: center; ">
+                <div style="grid-column:1; grid-gap: 20px; justify-content: space-around;" class="img">
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="rn.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="react.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="node.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="express.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="mui.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="firebase.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="mongo.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="java.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="js.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="git.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="github.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="html.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="css.png" >
+                    <img style=" margin-bottom: 40px; height: 100px;width: 100px;object-fit: contain;margin-left: 20px;" src="jwt.png" >
+            </div>
+
                 </div>
                 
             </div>
         </div>
     </section>
-     
+       <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <a href="https://fashionique-1.vercel.app/"> 
+                    <div class="box">
+                        <img src="fashnique.png" alt="">
+                        <div class="text" style="color: black;" >Fashnique</div>
+                        <p style="color: black;">Developed Fashnique, a dynamic MERN stack web application.
+</p>
+                    </div></a>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/vishalgupta8982/Fashnique-Full-stack-clothing-website"> 
+                    <div class="box">
+                        <img src="admin.png" alt="">
+                        <div class="text" style="color: black;" >Fashnique Admin</div>
+                        <p style="color: black;">Fashnique’s admin panel offers comprehensive control.  </p>
+                    </div></a>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/vishalgupta8982/MOISES-Music-App"> 
+                    <div class="box">
+                        <img src="https://camo.githubusercontent.com/55d3554b0cdefd2a919dd1ab816291f20221eb977b9a7318973abab7c9f7d908/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f6479746c67777977662f696d6167652f75706c6f61642f76313731333736323736392f786272646e7032756571746c7265626e637830672e6a7067" alt="">
+                        <div class="text" style="color: black;" >Moises Music App</div>
+                        <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div></a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
+      <!-- about start -->
     <section class="about" id="Education">
         <div class="max-width">
-            <h2 class="title"style="text-decoration:underline;text-decoration-color:crimson;">Education</h2>
+            <h2 class="title"style="text-decoration:underline; ">Education</h2>
             <div class="about-content">
                 <div class="column left">
                     <img src="Education.jpg" alt="">
@@ -103,13 +153,13 @@
                     <div class="text">I'm Vishal  </span></div>
                     <b>UG Degree</b></br>
                    <p> SAGE University</br>
-                    B.Tech in Computer Science</br> 
+                    B.Tech in Computer Science | 8.8 CGPA</br> 
                     2021-2025| Bhopal, Madhya Pradesh</br></br>
                     <b>Higher Secondary</b></br>
-                    State Board| 2021| 90.20%</br>
+                    State Board| 2021 | 90.20%</br>
                 Dabra, Madhya Pradesh</br></br>
                     <b>High School</b></br>
-                    State Board| 2019| 88.80%</br>
+                    State Board| 2019 | 88.80%</br>
                     Dabra, Madhya Pradesh</br></br>
                     
 
@@ -124,7 +174,7 @@
    
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title"style="text-decoration:underline;text-decoration-color:crimson;">Contact me</h2>
+            <h2 class="title"style="text-decoration:underline; ">Contact me</h2>
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Touch</div>
@@ -134,21 +184,21 @@
                             <i class="fas fa-user"></i>
                             <div class="info">
                                 <div class="head">Name</div>
-                                <div class="sub-title" style="color:white;">Vishal Gupta</div>
+                                <div class="sub-title" >Vishal Gupta</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
                                 <div class="head">Address</div>
-                                <div class="sub-title" style="color:white;">Bhopal, Madhya Pradesh</div>
+                                <div class="sub-title"  >Bhopal, Madhya Pradesh</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
                                 <div class="head">Email</div>
-                                <div class="sub-title" style="color:white;">vishalgupta0403@gmail.com </div>
+                                <div class="sub-title"  ">vishalgupta0403@gmail.com </div>
                             </div>
                         </div>
                     </div>
