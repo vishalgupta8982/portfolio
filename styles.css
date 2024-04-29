@@ -560,7 +560,7 @@ section .title::after{
  
 /* footer section styling */
 footer {
-    background: #000;
+    background: var(--primary);
     padding: 15px 23px;
     color: #000;
     text-align: center;
