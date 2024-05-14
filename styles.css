@@ -403,6 +403,9 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
+.card{
+    height: 400px !important;
+}
 .teams .carousel .card:hover{
     background: var(--cardHover);
 }
@@ -557,8 +560,7 @@ section .title::after{
  .contact-content{
     color: #000;
  }
- 
-/* footer section styling */
+./* footer section styling */
 footer {
     background: var(--primary);
     padding: 15px 23px;
